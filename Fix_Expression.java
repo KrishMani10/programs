@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 
-public class Fix_Expression {
+public class inFix_Expression {
 
     public static int precedenceCheck(char input){
         if(input == '+' ||input == '-'){
