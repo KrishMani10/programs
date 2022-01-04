@@ -7,18 +7,18 @@ public class MarvelComics_Heroes_Information {
 
 
     public static void main(String[] args) {
-        int marvel_heroes;
+        int Marvel_Heroes;
 
         Scanner s = new Scanner(System.in);
         System.out.println("Marvel heroes data are : ");
         try {
-            marvel_heroes = s.nextInt();
+            Marvel_Heroes = s.nextInt();
             s.nextLine();
             Set<Marvel_Superheroes> m = new HashSet<>();
-            for (int i = 0; i < marvel_heroes; i++) {
-                Set<PowerAbility> powerAbilities = new HashSet<>();
+            for (int i = 0; i < Marvel_Heroes; i++) {
+                Set<PowerAbility> PowerAbilities = new HashSet<>();
                 System.out.println("Name of the Marvel Character : ");
-                String marvel_name = s.nextLine();
+                String Marvel_Name = s.nextLine();
                 System.out.println("Age of the Marvel Character : ");
                 int age = s.nextInt();
                 s.nextLine();
@@ -30,10 +30,10 @@ public class MarvelComics_Heroes_Information {
                     char choice = s.next().charAt(0);
 
                     if (choice == 'y') {
-                        powerAbilities.add(ability);
+                        PowerAbilities.add(ability);
                     }
                 }
-                m.add(new Marvel_Superheroes(marvel_name, age, nickname, powerAbilities));
+                m.add(new Marvel_Superheroes(Marvel_Name, age, nickname, PowerAbilities));
                 s.nextLine();
             }
 
@@ -46,10 +46,4 @@ public class MarvelComics_Heroes_Information {
         }
 
     }
-}
-enum PowerAbility {
-     FLYING,
-    TIME_TRAVEL,
-    INVISIBLE,
-    MAGIC_POWER
 }
