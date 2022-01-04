@@ -5,13 +5,13 @@ class Marvel_Superheroes {
     String name;
     int age;
     String nickname;
-    Set<PowerAbility>powerAbilities;
+    Set<PowerAbility>PowerAbilities;
 
-    Marvel_Superheroes(String marvel_name,int marvel_age,String marvel_nickname, Set<PowerAbility>powerAbilities){
-        this.name = marvel_name;
-        this.age = marvel_age;
-        this.nickname = marvel_nickname;
-        this.powerAbilities = powerAbilities;
+    Marvel_Superheroes(String Marvel_Name,int Marvel_Age,String Marvel_Nickname, Set<PowerAbility>PowerAbilities){
+        this.name = Marvel_Name;
+        this.age = Marvel_Age;
+        this.nickname = Marvel_Nickname;
+        this.PowerAbilities = PowerAbilities;
 
     }
 
@@ -30,8 +30,15 @@ class Marvel_Superheroes {
 
 
     void printData(){
-        System.out.println("Name : " +name+ "\t" +"||" + " age : " +age+ "\t" +"||" + " Marvel name : " +nickname+  "\t" +"||" + " Power ability : " + Arrays.toString(powerAbilities.toArray())
+        System.out.println("Name : " +name+ "\t" +"||" + " age : " +age+ "\t" +"||" + " Marvel name : " +nickname+  "\t" +"||" + " Power ability : " + Arrays.toString(PowerAbilities.toArray())
         );
     }
+}
+
+enum PowerAbility {
+     FLYING,
+    TIME_TRAVEL,
+    INVISIBLE,
+    MAGIC_POWER
 }
 
