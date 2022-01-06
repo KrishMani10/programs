@@ -7,33 +7,33 @@ public class MarvelComics_Heroes_Information {
 
 
     public static void main(String[] args) {
-        int Marvel_Heroes;
+        int marvelHeroes;
 
         Scanner s = new Scanner(System.in);
         System.out.println("Marvel heroes data are : ");
         try {
-            Marvel_Heroes = s.nextInt();
+            marvelHeroes = s.nextInt();
             s.nextLine();
             Set<Marvel_Superheroes> m = new HashSet<>();
-            for (int i = 0; i < Marvel_Heroes; i++) {
-                Set<PowerAbility> PowerAbilities = new HashSet<>();
+            for (int i = 0; i < marvelHeroes; i++) {
+                Set<PowerAbility> powerAbilities = new HashSet<>();
                 System.out.println("Name of the Marvel Character : ");
-                String Marvel_Name = s.nextLine();
+                String marvelName = s.nextLine();
                 System.out.println("Age of the Marvel Character : ");
                 int age = s.nextInt();
                 s.nextLine();
                 System.out.println("Nickname of marvel character : ");
-                String nickname = s.nextLine();
+                String nickName = s.nextLine();
                 System.out.println("Power ability of marvel character : ");
                 for (PowerAbility ability : PowerAbility.values()) {
                     System.out.println("Does character have ability : " + ability + " ? (y/n)");
                     char choice = s.next().charAt(0);
 
                     if (choice == 'y') {
-                        PowerAbilities.add(ability);
+                        powerAbilities.add(ability);
                     }
                 }
-                m.add(new Marvel_Superheroes(Marvel_Name, age, nickname, PowerAbilities));
+                m.add(new Marvel_Superheroes(marvelName, age, nickName, powerAbilities));
                 s.nextLine();
             }
 
