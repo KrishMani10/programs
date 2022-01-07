@@ -1,9 +1,9 @@
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.Set;
 import java.util.*;
 
-class FacebookUserData {
+public class FacebookUserData
+{
     public static void main(String[] args) {
         int noOfFbUsers;
         Scanner s = new Scanner(System.in);
@@ -13,7 +13,6 @@ class FacebookUserData {
             s.nextLine();
 
             Map<String, FacebookUser> fbUsers = new HashMap<>();
-            Map<String, List<String>> fbFriends = new HashMap<>();
             for (int i = 0; i < noOfFbUsers; i++) {
                 System.out.println("User id : ");
                 String fbUsername = s.nextLine();
@@ -21,11 +20,11 @@ class FacebookUserData {
                 System.out.println("Profile name : ");
                 String fbProfileName = s.nextLine();
 
-                System.out.println("Gender : ");
-                String fbGender = s.nextLine();
+                System.out.println("Gender(male,female,unspecified : ");
+                Gender fbGender = Gender.valueOf(s.nextLine().toUpperCase());
 
                 // Get user input as yyyy-mm-dd format
-                System.out.println("Date of birth is (yyyy-mm-dd) : ");
+                System.out.println("Date of birth is (yyyy-mm-dd) : " );
                 String dob = s.next();
                 LocalDate fbDob = LocalDate.parse(dob);
 
@@ -55,34 +54,25 @@ class FacebookUserData {
                 fbUsers.put(fbProfileName, new FacebookUser(fbUsername, fbProfileName, fbGender, fbDob, age, schoolPlace, collegePlace, currPlace, workPlace));
             }
 
-            for (FacebookUser user : fbUsers.values()) {
-                user.printData();
-            }
-
-            for (String userName : fbUsers.keySet()) {
-                System.out.println("Enter number for friends for User id " + userName);
+            for (FacebookUser fbUser : fbUsers.values()) {
+                System.out.println("Enter number for friends for User id " + fbUser.profileName);
                 int noOfFriends = s.nextInt();
                 s.nextLine();
                 for (int j = 0; j < noOfFriends; j++) {
-                    System.out.println("Enter friend " + (j + 1));
+                    System.out.println("Enter friend (" + (j + 1) + ") : ");
                     String friend = s.nextLine();
-                    List<String> friends = fbFriends.get(userName);
-                    if (friends == null) {
-                        friends = new ArrayList<>();
-                    }
-                    friends.add(friend);
-                    fbFriends.put(userName, friends);
+                    FacebookUser fbFriend = fbUsers.get(friend);
+                    fbUser.addFriend(fbFriend);
                 }
             }
 
-            Set<Map.Entry<String, List<String>>> entries = fbFriends.entrySet();
-            for (Map.Entry<String, List<String>> entry : entries) {
-                String user = entry.getKey();
-                List<String> friends = entry.getValue();
-                System.out.println("User id : (" + user + ")+  having friends " + friends);
+
+            for (FacebookUser user : fbUsers.values()) {
+                user.printData();
             }
         }
-        catch (Exception e) {
+        
+        catch(Exception e){
             System.out.println("Given input is mismatched ");
         }
     }
