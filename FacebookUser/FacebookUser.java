@@ -1,4 +1,4 @@
-package facebookuser;
+package mani.facebookuser;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
