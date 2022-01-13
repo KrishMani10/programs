@@ -1,36 +1,40 @@
 import com.google.gson.Gson;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.Reader;
 import java.util.*;
 
 public class MutualFriendList {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 //        readUsersFromInput();
         readUsersFromJson();
     }
 
-    private static void readUsersFromJson() {
-        String jsonString = """
-                {
-                \t"facebookUsers": [{
-                \t\t"userName": "a",
-                \t\t"friends": ["b", "c","d"]
-                \t}, {
-                \t\t"userName": "b",
-                \t\t"friends": ["c","d"]
-                \t}, {
-                \t\t"userName": "c",
-                \t\t"friends": ["a","d"]
-                \t}, {
-                \t\t"userName": "d",
-                \t\t"friends": ["a","b"]
-                \t}]
-                }""";
+    private static void readUsersFromJson() throws FileNotFoundException {
+       String jsonString = "{\n" +
+                           "\t\"facebookUsers\": [{\n" +
+                           "\t\t\"userName\": \"a\",\n" +
+                           "\t\t\"friends\": [\"b\", \"c\",\"d\"]\n" +
+                           "\t}, {\n" +
+                           "\t\t\"userName\": \"b\",\n" +
+                           "\t\t\"friends\": [\"c\",\"d\"]\n" +
+                           "\t}, {\n" +
+                           "\t\t\"userName\": \"c\",\n" +
+                           "\t\t\"friends\": [\"a\",\"d\"]\n" +
+                           "\t}, {\n" +
+                           "\t\t\"userName\": \"d\",\n" +
+                           "\t\t\"friends\": [\"a\",\"b\"]\n" +
+                           "\t}]\n" +
+                           "}";
         Gson gson = new Gson();
-        FaceBookUsers faceBookUsers = gson.fromJson(jsonString, FaceBookUsers.class);
+      //  FaceBookUsers faceBookUsers = gson.fromJson(jsonString, FaceBookUsers.class);
+       Reader reader = new FileReader("c:\\users\\mani\\documents\\userdata.json");
+       FaceBookUsers faceBookUsers = gson.fromJson(reader,FaceBookUsers.class);
         Map<String,FacebookProfileUser> fbUsers = new HashMap<>();
         System.out.println("Facebook usernames are : ");
         for (FacebookProfileUser facebookUser : faceBookUsers.facebookUsers) {
-            fbUsers.put(facebookUser.userName, facebookUser);
-            System.out.println(facebookUser.userName);
+            fbUsers.put(facebookUser.profileName, facebookUser);
+            System.out.println(facebookUser.profileName);
         }
         Scanner s = new Scanner(System.in);
         System.out.println("Enter two users to find Mutual Friends: ");
@@ -40,6 +44,8 @@ public class MutualFriendList {
         String fbUsername2 = s.nextLine();
         FacebookProfileUser fbUser1 = fbUsers.get(fbUsername1);
         FacebookProfileUser fbUser2 = fbUsers.get(fbUsername2);
+         System.out.println(fbUser1.friends);
+        System.out.println(fbUser2.friends);
         if (fbUser1 == null || fbUser2 == null) {
             System.out.println("Given input is mismatched ");
         }else {
@@ -51,10 +57,8 @@ public class MutualFriendList {
                     mutualFriends.add(friend);
                 }
             }
-            System.out.print("Mutual friends between users"+"\t" +fbUser1.userName+ "\t"+"and" + "\t" +fbUser2.userName + "\t"+ "are : ");
-            System.out.println(mutualFriends);
+            System.out.print("Mutual friends between users " +fbUser1.profileName+ " and " +  fbUser2.profileName + " are : " +mutualFriends);
         }
-
     }
 
  /*   private static void readUsersFromInput() {
