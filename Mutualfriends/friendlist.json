@@ -1,0 +1,23 @@
+{
+	"facebookUsers": [{
+			"userName": "siva",
+			"friends": ["mani", "damu", "sairam"]
+		},
+		{
+			"userName": "mani",
+			"friends": ["damu", "siva", "sairam", "gops"]
+		},
+		{
+			"userName": "damu",
+			"friends": ["siva", "mani"]
+		},
+		{
+			"userName": "sairam",
+			"friends": ["mani", "siva", "gops"]
+		},
+		{
+			"userName": "gops",
+			"friends": ["mani", "sairam"]
+		}
+	]
+}		
