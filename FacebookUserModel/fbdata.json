@@ -1,0 +1,59 @@
+{
+ 	"facebookUser": {
+		"siva": {
+			"userName": "siva",
+			"gender": "male",
+			"age": "26",
+			"currentLocation": "chennai",
+			"workingPlace": "chennai",
+			"schooling": "Abc",
+			"college": "abc",
+			"friends": ["mani", "damu", "sairam"]
+		},
+
+		"mani": {
+			"userName": "mani",
+			"gender": "male",
+			"age": "28",
+			"currentLocation": "chennai",
+			"workingPlace": "chennai",
+			"schooling": "Abc",
+			"college": "abd",
+			"friends": ["damu", "siva", "sairam", "gops"]
+		},
+
+		"damu": {
+			"userName": "damu",
+			"gender": "male",
+			"age": "29",
+			"currentLocation": "chennai",
+			"workingPlace": "chennai",
+			"schooling": "Abc",
+			"college": "bcd",
+			"friends": ["siva", "mani"]
+		},
+
+		"sairam": {
+			"userName": "sairam",
+			"gender": "male",
+			"age": "27",
+			"currentLocation": "chennai",
+			"workingPlace": "chennai",
+			"schooling": "Abc",
+			"college": "acd",
+			"friends": ["mani", "siva", "gops"]
+		},
+
+		"gops": {
+			"userName": "gops",
+			"gender": "male",
+			"age": "25",
+			"currentLocation": "chennai",
+			"workingPlace": "chennai",
+			"schooling": "Abc",
+			"college": "aed",
+			"friends": ["mani", "sairam"]
+		}
+
+	}
+}
