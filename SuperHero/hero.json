@@ -1,0 +1,78 @@
+ [{
+        "SuperHeroName": "Superman",
+        "Universe": "DC",
+        "SuperPower": "Flying",
+        "DOB": "11/12/1985"
+    }, {
+        "SuperHeroName": "Batman",
+        "Universe": "DC",
+        "SuperPower": "Technology",
+        "DOB": "08/09/1989"
+    }, {
+        "SuperHeroName": "Cyborg",
+        "Universe": "DC",
+        "SuperPower": "Robot",
+        "DOB": "24/07/1993"
+    }, {
+        "SuperHeroName": "WonderWoman",
+        "Universe": "DC",
+        "SuperPower": "Superhuman Strength",
+        "DOB": "11/12/1991"
+    }, {
+        "SuperHeroName": "Ironman",
+        "Universe": "Marvel",
+        "SuperPower": "Technology",
+        "DOB": "10/07/1990"
+    }, {
+        "SuperHeroName": "Thor",
+        "Universe": "Marvel",
+        "SuperPower": "Lightning",
+        "DOB": "unknown"
+    }, {
+        "SuperHeroName": "Captain America",
+        "Universe": "Marvel",
+        "SuperPower": "Superhuman Strength",
+        "DOB": "11/10/1934"
+    }, {
+        "SuperHeroName": "Spiderman",
+        "Universe": "Marvel",
+        "SuperPower": "Flying",
+        "DOB": "10/01/1996"
+    }, {
+        "SuperHeroName": "Monkey.D.Luffy",
+        "Universe": "One Piece",
+        "SuperPower": "RubberMan",
+        "DOB": "12/07/1997"
+    }, {
+        "SuperHeroName": "Zoro",
+        "Universe": "One Piece",
+        "SuperPower": "Swordsman",
+        "DOB": "19/02/1993"
+    }, {
+        "SuperHeroName": "Sanji",
+        "Universe": "One Piece",
+        "SuperPower": "Fire kicks",
+        "DOB": "23/05/1995"
+    }, {
+        "SuperHeroName": "Naruto",
+        "Universe": "Naruto",
+        "SuperPower": "Sage Mode",
+        "DOB": "07/01/1998"
+    }, {
+        "SuperHeroName": "Sasuke",
+        "Universe": "Naruto",
+        "SuperPower": "Sharingan",
+        "DOB": "27/08/1997"
+    }, {
+        "SuperHeroName": "Natsu",
+        "Universe": "Fairy Tail",
+        "SuperPower": "Fire Dragon Slayer",
+        "DOB": "Unknown"
+    },
+    {
+        "SuperHeroName": "Lucy",
+        "Universe": "Fairy Tail",
+        "SuperPower": "Celestial Spirit",
+        "DOB": "18/02/1999"
+    }
+    ]
