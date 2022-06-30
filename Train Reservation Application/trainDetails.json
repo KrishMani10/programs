@@ -1,0 +1,31 @@
+[{
+  "compartmentCoachName": "A",
+  "coachType": "AC",
+  "noOfPassengers": 0,
+  "noOfSeats": 2,
+  "trainFare": 500
+}, {
+  "compartmentCoachName": "B",
+  "coachType": "AC",
+  "noOfPassengers": 0,
+  "noOfSeats": 2,
+  "trainFare": 500
+}, {
+  "compartmentCoachName": "C",
+  "coachType": "NONAC",
+  "noOfPassengers": 0,
+  "noOfSeats": 60,
+  "trainFare": 250
+}, {
+  "compartmentCoachName": "D",
+  "coachType": "NONAC",
+  "noOfPassengers": 0,
+  "noOfSeats": 60,
+  "trainFare": 250
+}, {
+  "compartmentCoachName": "E",
+  "coachType": "NONAC",
+  "noOfPassengers": 0,
+  "noOfSeats": 60,
+  "trainFare": 250
+}]
