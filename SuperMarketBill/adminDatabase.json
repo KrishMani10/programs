@@ -1,0 +1,18 @@
+{
+	"martin": {
+		"userName": "martin",
+		"password": "nbsujo"
+	},
+	"admin": {
+		"userName": "admin",
+		"password": "benjo"
+	},
+	"sam": {
+		"userName": "sam",
+		"password": "bcDe"
+	},
+	"leo": {
+		"userName": "leo",
+		"password": "bbbBBB"
+	}
+}
