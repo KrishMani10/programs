@@ -1,0 +1,164 @@
+[{
+		"itemNo": 1,
+		"itemName": "milk",
+		"itemPrice": 15,
+		"itemQuantity": 25,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 2,
+		"itemName": "biscuit",
+		"itemPrice": 12,
+		"itemQuantity": 30,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 3,
+		"itemName": "butter",
+		"itemPrice": 25,
+		"itemQuantity": 5,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 4,
+		"itemName": "sugar",
+		"itemPrice": 10,
+		"itemQuantity": 50,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 5,
+		"itemName": "ghee",
+		"itemPrice": 20,
+		"itemQuantity": 8,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 6,
+		"itemName": "chocolate",
+		"itemPrice": 5,
+		"itemQuantity": 55,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 7,
+		"itemName": "carrot",
+		"itemPrice": 13,
+		"itemQuantity": 30,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 8,
+		"itemName": "chips",
+		"itemPrice": 8,
+		"itemQuantity": 25,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 9,
+		"itemName": "soap",
+		"itemPrice": 15,
+		"itemQuantity": 30,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 10,
+		"itemName": "shampoo",
+		"itemPrice": 6,
+		"itemQuantity": 40,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 11,
+		"itemName": "hair oil",
+		"itemPrice": 22,
+		"itemQuantity": 10,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 12,
+		"itemName": "beans",
+		"itemPrice": 14,
+		"itemQuantity": 30,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 13,
+		"itemName": "onion",
+		"itemPrice": 40,
+		"itemQuantity": 20,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 14,
+		"itemName": "tomato",
+		"itemPrice": 24,
+		"itemQuantity": 25,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 15,
+		"itemName": "ice cream",
+		"itemPrice": 10,
+		"itemQuantity": 30,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 16,
+		"itemName": "coffee powder",
+		"itemPrice": 35,
+		"itemQuantity": 20,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 17,
+		"itemName": "cashew",
+		"itemPrice": 120,
+		"itemQuantity": 20,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 18,
+		"itemName": "coke",
+		"itemPrice": 15,
+		"itemQuantity": 18,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 19,
+		"itemName": "sprite",
+		"itemPrice": 20,
+		"itemQuantity": 25,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 20,
+		"itemName": "watermelon",
+		"itemPrice": 46,
+		"itemQuantity": 12,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 21,
+		"itemName": "apple",
+		"itemPrice": 56,
+		"itemQuantity": 25,
+		"itemDiscount": 0
+	},
+	{
+		"itemNo": 22,
+		"itemName": "orange",
+		"itemPrice": 40,
+		"itemQuantity": 12,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 23,
+		"itemName": "guava",
+		"itemPrice": 15,
+		"itemQuantity":0,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 24,
+		"itemName": "mango",
+		"itemPrice": 60,
+		"itemQuantity": 15,
+		"itemDiscount": 0
+	}, {
+		"itemNo": 25,
+		"itemName": "jam",
+		"itemPrice": 28,
+		"itemQuantity": 5,
+		"itemDiscount": 0
+	}
+]
