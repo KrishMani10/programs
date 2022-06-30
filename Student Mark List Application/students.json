@@ -1,0 +1,385 @@
+[{
+	"name": "Anitha",
+	"rollNo": "9",
+	"marks": [{
+		"subjectScore": 91,
+		"subject": {
+			"subjectName": "m1"
+		}
+	}, {
+		"subjectScore": 78,
+		"subject": {
+			"subjectName": "m2"
+		}
+	}, {
+		"subjectScore": 80,
+		"subject": {
+			"subjectName": "m3"
+		}
+	},
+		{
+			"subjectScore": 69,
+			"subject": {
+				"subjectName": "m4"
+			}
+		},
+		{
+			"subjectScore": 84,
+			"subject": {
+				"subjectName": "m5"
+			}
+		},
+		{
+			"subjectScore": 74,
+			"subject": {
+				"subjectName": "m6"
+			}
+		}
+	]
+}, {
+	"name": "Maya",
+	"rollNo": "6",
+	"marks": [{
+		"subjectScore": 78,
+		"subject": {
+			"subjectName": "m1"
+		}
+	}, {
+		"subjectScore": 87,
+		"subject": {
+			"subjectName": "m2"
+		}
+	}, {
+		"subjectScore": 75,
+		"subject": {
+			"subjectName": "m3"
+		}
+	},
+		{
+			"subjectScore": 92,
+			"subject": {
+				"subjectName": "m4"
+			}
+		},
+		{
+			"subjectScore": 84,
+			"subject": {
+				"subjectName": "m5"
+			}
+		},
+		{
+			"subjectScore": 91,
+			"subject": {
+				"subjectName": "m6"
+			}
+		}
+	]
+}, {
+	"name": "Santhosh",
+	"rollNo": "5",
+	"marks": [{
+		"subjectScore": 78,
+		"subject": {
+			"subjectName": "m1"
+		}
+	}, {
+		"subjectScore": 98,
+		"subject": {
+			"subjectName": "m2"
+		}
+	}, {
+		"subjectScore": 92,
+		"subject": {
+			"subjectName": "m3"
+		}
+	},
+		{
+			"subjectScore": 92,
+			"subject": {
+				"subjectName": "m4"
+			}
+		},
+		{
+			"subjectScore": 84,
+			"subject": {
+				"subjectName": "m5"
+			}
+		},
+		{
+			"subjectScore": 91,
+			"subject": {
+				"subjectName": "m6"
+			}
+		}
+	]
+}, {
+	"name": "Pooja",
+	"rollNo": "7",
+	"marks": [{
+		"subjectScore": 65,
+		"subject": {
+			"subjectName": "m1"
+		}
+	}, {
+		"subjectScore": 89,
+		"subject": {
+			"subjectName": "m2"
+		}
+	}, {
+		"subjectScore": 75,
+		"subject": {
+			"subjectName": "m3"
+		}
+	},
+		{
+			"subjectScore": 91,
+			"subject": {
+				"subjectName": "m4"
+			}
+		},
+		{
+			"subjectScore": 84,
+			"subject": {
+				"subjectName": "m5"
+			}
+		},
+		{
+			"subjectScore": 57,
+			"subject": {
+				"subjectName": "m6"
+			}
+		}
+	]
+},
+	{
+		"name": "Zoro",
+		"rollNo": "2",
+		"marks": [{
+			"subjectScore": 65,
+			"subject": {
+				"subjectName": "m1"
+			}
+		}, {
+			"subjectScore": 95,
+			"subject": {
+				"subjectName": "m2"
+			}
+		}, {
+			"subjectScore": 73,
+			"subject": {
+				"subjectName": "m3"
+			}
+		},
+			{
+				"subjectScore": 84,
+				"subject": {
+					"subjectName": "m4"
+				}
+			},
+			{
+				"subjectScore": 95,
+				"subject": {
+					"subjectName": "m5"
+				}
+			},
+			{
+				"subjectScore": 76,
+				"subject": {
+					"subjectName": "m6"
+				}
+			}
+		]
+	}, {
+	"name": "Mani",
+	"rollNo": "1",
+	"marks": [{
+		"subjectScore": 77,
+		"subject": {
+			"subjectName": "m1"
+		}
+	}, {
+		"subjectScore": 88,
+		"subject": {
+			"subjectName": "m2"
+		}
+	}, {
+		"subjectScore": 75,
+		"subject": {
+			"subjectName": "m3"
+		}
+	},
+		{
+			"subjectScore": 92,
+			"subject": {
+				"subjectName": "m4"
+			}
+		},
+		{
+			"subjectScore": 84,
+			"subject": {
+				"subjectName": "m5"
+			}
+		},
+		{
+			"subjectScore": 91,
+			"subject": {
+				"subjectName": "m6"
+			}
+		}
+	]
+},
+
+	{
+		"name": "Krish",
+		"rollNo": "4",
+		"marks": [{
+			"subjectScore": 78,
+			"subject": {
+				"subjectName": "m1"
+			}
+		}, {
+			"subjectScore": 87,
+			"subject": {
+				"subjectName": "m2"
+			}
+		}, {
+			"subjectScore": 75,
+			"subject": {
+				"subjectName": "m3"
+			}
+		},
+			{
+				"subjectScore": 92,
+				"subject": {
+					"subjectName": "m4"
+				}
+			},
+			{
+				"subjectScore": 84,
+				"subject": {
+					"subjectName": "m5"
+				}
+			},
+			{
+				"subjectScore": 91,
+				"subject": {
+					"subjectName": "m6"
+				}
+			}
+		]
+	}, {
+	"name": "Luffy",
+	"rollNo": "3",
+	"marks": [{
+		"subjectScore": 63,
+		"subject": {
+			"subjectName": "m1"
+		}
+	}, {
+		"subjectScore": 90,
+		"subject": {
+			"subjectName": "m2"
+		}
+	}, {
+		"subjectScore": 75,
+		"subject": {
+			"subjectName": "m3"
+		}
+	},
+		{
+			"subjectScore": 82,
+			"subject": {
+				"subjectName": "m4"
+			}
+		},
+		{
+			"subjectScore": 86,
+			"subject": {
+				"subjectName": "m5"
+			}
+		},
+		{
+			"subjectScore": 90,
+			"subject": {
+				"subjectName": "m6"
+			}
+		}
+	]
+}, {
+	"name": "Priya",
+	"rollNo": "8",
+	"marks": [{
+		"subjectScore": 90,
+		"subject": {
+			"subjectName": "m1"
+		}
+	}, {
+		"subjectScore": 67,
+		"subject": {
+			"subjectName": "m2"
+		}
+	}, {
+		"subjectScore": 80,
+		"subject": {
+			"subjectName": "m3"
+		}
+	},
+		{
+			"subjectScore": 60,
+			"subject": {
+				"subjectName": "m4"
+			}
+		},
+		{
+			"subjectScore": 79,
+			"subject": {
+				"subjectName": "m5"
+			}
+		},
+		{
+			"subjectScore": 86,
+			"subject": {
+				"subjectName": "m6"
+			}
+		}
+	]
+}, {
+	"name": "Aishu",
+	"rollNo": "10",
+	"marks": [{
+		"subjectScore": 90,
+		"subject": {
+			"subjectName": "m1"
+		}
+	}, {
+		"subjectScore": 79,
+		"subject": {
+			"subjectName": "m2"
+		}
+	}, {
+		"subjectScore": 67,
+		"subject": {
+			"subjectName": "m3"
+		}
+	},
+		{
+			"subjectScore": 86,
+			"subject": {
+				"subjectName": "m4"
+			}
+		},
+		{
+			"subjectScore": 98,
+			"subject": {
+				"subjectName": "m5"
+			}
+		},
+		{
+			"subjectScore": 71,
+			"subject": {
+				"subjectName": "m6"
+			}
+		}
+	]
+}
+]
